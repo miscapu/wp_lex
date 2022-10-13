@@ -1,0 +1,24 @@
+2022-10-13T00:43:38+00:00 CRITICAL Uncaught Error: Call to a member function get_orders() on null in /home1/hgn38558/lexTeste.nutrimagrobusiness.com.br/wp-content/plugins/woocommerce/templates/myaccount/view-order.php:26
+Stack trace:
+#0 /home1/hgn38558/lexTeste.nutrimagrobusiness.com.br/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home1/hgn38558/lexTeste.nutrimagrobusiness.com.br/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(151): wc_get_template('myaccount/view-...', Array)
+#2 /home1/hgn38558/lexTeste.nutrimagrobusiness.com.br/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3223): WC_Shortcode_My_Account::view_order(18)
+#3 /home1/hgn38558/lexTeste.nutrimagrobusiness.com.br/wp-includes/class-wp-hook.php(307): woocommerce_account_view_order('18')
+#4 /home1/hgn38558/lexTeste.nutrimagrobusiness.com.br/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 /home1/hgn38558/lexTeste.nutrimagrobusiness.com.br/wp-includes/plugin.php(476): WP, em /home1/hgn38558/lexTeste.nutrimagrobusiness.com.br/wp-content/plugins/woocommerce/templates/myaccount/view-order.php, na linha 26
+
+2022-10-13T00:44:18+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_orders() in /home1/hgn38558/lexTeste.nutrimagrobusiness.com.br/wp-content/plugins/woocommerce/templates/myaccount/view-order.php:26
+Stack trace:
+#0 /home1/hgn38558/lexTeste.nutrimagrobusiness.com.br/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home1/hgn38558/lexTeste.nutrimagrobusiness.com.br/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(151): wc_get_template('myaccount/view-...', Array)
+#2 /home1/hgn38558/lexTeste.nutrimagrobusiness.com.br/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3223): WC_Shortcode_My_Account::view_order(18)
+#3 /home1/hgn38558/lexTeste.nutrimagrobusiness.com.br/wp-includes/class-wp-hook.php(307): woocommerce_account_view_order('18')
+#4 /home1/hgn38558/lexTeste.nutrimagrobusiness.com.br/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 /home1/hgn38558/lexTeste.nutrimagrobusiness.c, em /home1/hgn38558/lexTeste.nutrimagrobusiness.com.br/wp-content/plugins/woocommerce/templates/myaccount/view-order.php, na linha 26
+
+2022-10-13T01:28:06+00:00 CRITICAL syntax error, unexpected end of file, em /home1/hgn38558/lexTeste.nutrimagrobusiness.com.br/wp-content/plugins/woocommerce/templates/single-product.php, na linha 129
+
+2022-10-13T01:28:22+00:00 CRITICAL syntax error, unexpected end of file, em /home1/hgn38558/lexTeste.nutrimagrobusiness.com.br/wp-content/plugins/woocommerce/templates/single-product.php, na linha 129
+
+2022-10-13T01:28:24+00:00 CRITICAL syntax error, unexpected end of file, em /home1/hgn38558/lexTeste.nutrimagrobusiness.com.br/wp-content/plugins/woocommerce/templates/single-product.php, na linha 129
+
